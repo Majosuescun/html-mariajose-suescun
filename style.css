@@ -56,6 +56,19 @@ body p {
   margin-left: auto;
   margin-right: auto;
 }
+#maestra {
+  width:350px;
+  height:300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  filter: drop-shadow(5px 5px lightblue);
+}
+#maestre {
+text-align: center;
+color: palegreen;
+background-color:  lightcoral;
+}
 
 body p:hover {
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
@@ -90,12 +103,3 @@ footer a:hover {
   to {
     opacity: 1;
   }
-
- #maestra {
-  width: 10px;
-  height: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  filter: drop-shadow(5px 5px lightpink);
-}
